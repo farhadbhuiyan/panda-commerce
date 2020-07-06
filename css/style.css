@@ -44,15 +44,28 @@
 .categories img{
   width: 100px;
 }
+.shoes h3{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.backpack h3{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
 .card{
   border: none;
   box-shadow: 5px 5px 10px lightgray;
   border-radius: 10px;
 }
+.card-title{
+  font-weight: 600;
+}
 .card-footer{
-  background-color: #fff;
- 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #subscribe{
@@ -100,8 +113,8 @@ footer{
     font-size: 20px;
     font-weight: 700;
   }
-  .carousel-item button{
-
+  .carousel-item .row button{
+    margin-left: auto;
   }
 
   .categories .row .cat1, .categories .row .cat2{
@@ -109,7 +122,7 @@ footer{
   }
   .shoes h3{
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
   }
   .backpack h3{
     text-align: center;
