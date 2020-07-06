@@ -113,8 +113,13 @@ footer{
     font-size: 20px;
     font-weight: 700;
   }
-  .carousel-item .row button{
-    margin-left: auto;
+  .caro-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .caro-flex h1, .caro-flex button{
+    align-self: center;
+    justify-self: center;
   }
 
   .categories .row .cat1, .categories .row .cat2{
